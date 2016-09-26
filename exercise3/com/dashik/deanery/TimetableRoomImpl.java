@@ -13,7 +13,7 @@ public class TimetableRoomImpl implements TimetableRoom {
 			return hourEnd-hourBegin;
 		}
 		else{
-			System.out.println("Incorrect hour. End hour should be higher then begin hour");
+			System.out.println("Incorrect hours. End hour should be higher then begin hour");
 			return	0;
 		}
 	}
