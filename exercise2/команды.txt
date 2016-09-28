@@ -1,0 +1,13 @@
+D:\Java\exercises\exercise2>javac src\dashik\printtext\PrintText.java
+
+D:\Java\exercises\exercise2>javac src\dashik\printtextfinal\PrintTextFinal.java
+
+D:\Java\exercises\exercise2\bin>jar -cf PrintText.jar ..\src\dashik\printtext
+
+D:\Java\exercises\exercise2\bin>jar -cf PrintFinal.jar ..\src\dashik\printtextfinal
+D:\Java\exercises\exercise2\bin>java -cp PrintTextFinal.jar;PrintText.jar src.dashik.printtextfinal.PrintTextFinal
+
+
+
+
+java com.dashik.deanery.MainProgram вызов пакеджа
