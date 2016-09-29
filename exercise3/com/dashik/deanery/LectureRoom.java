@@ -3,7 +3,7 @@ package com.dashik.deanery;
 public class LectureRoom extends EducationalRoom {
 	int numberSeats;
 	
-	public LectureRoom(int numberSeats, int floor, int number) {
+	public LectureRoom(int numberSeats, int floor, String number) {
 		super(floor,number);
 		this.numberSeats=numberSeats;
 	} 

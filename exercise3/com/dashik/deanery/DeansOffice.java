@@ -6,7 +6,7 @@ public class DeansOffice extends EducationalRoom implements TimetableRoom {
 	public static int hourbegin=8;
 	public static int hourend=16;
 	
-	public DeansOffice(String deansName, int floor, int number) {
+	public DeansOffice(String deansName, int floor, String number) {
 		super(floor, number);
 		this.deansName = deansName;
 		ttroom = new TimetableRoomImpl(hourbegin,hourend);

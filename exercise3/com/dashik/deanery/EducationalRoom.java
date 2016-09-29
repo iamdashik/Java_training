@@ -1,16 +1,16 @@
 package com.dashik.deanery;
 
 public abstract class EducationalRoom extends DepartmentRoom {
-	public int roomnumber;
+	public String roomnumber;
 	
-	public EducationalRoom(int floor, int roomnumber) throws IllegalArgumentException{
+	public EducationalRoom(int floor, String roomnumber) throws IllegalArgumentException{
 		super(floor);
 		
-		if(new Integer(roomnumber)==null) {
+		if(roomnumber==null) {
 			throw new NullPointerException("The roomnumber can't be null!"); 
 		}
 		
-		if(!(new Integer(roomnumber).toString().startsWith(new Integer(floor).toString()))) {
+		if(!(roomnumber.startsWith(new Integer(floor).toString()))) {
 			throw new IllegalArgumentException("The room number should start from floor number!");		 	
 		}
 		

@@ -8,10 +8,10 @@ class MainProgram {
 		ArrayList<EducationalRoom> forLecture = new ArrayList<EducationalRoom>();
 		
 		try {
-			depRooms[0] = new DeansOffice("Vasin",1,1);
-			depRooms[1] = new LectureRoom(30,12,131);
-			depRooms[2] = new LectureRoom(30,2,2);
-			depRooms[3] = new LectureRoom(30,3,3);
+			depRooms[0] = new DeansOffice("Vasin",1,null);
+			depRooms[1] = new LectureRoom(30,12,"131");
+			depRooms[2] = new LectureRoom(30,2,"2");
+			depRooms[3] = new LectureRoom(30,3,"3");
 			
 			for (int i=0; i<4; i++) {
 			depRooms[i].open();
