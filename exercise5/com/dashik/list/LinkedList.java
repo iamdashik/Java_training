@@ -5,7 +5,7 @@ public class LinkedList {
 	public Node tail;
 	public int count;
 	
-	public void LinkedList() {
+	public LinkedList() {
 		head = null;
 		tail = null;
 		count = 0;

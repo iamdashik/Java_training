@@ -23,7 +23,15 @@ class PrintList {
 			current = current.next;
 		}
 		
+		TestList.add("a");
 		
+		MyListIter iter = new MyListIter(TestList);
+		System.out.println(iter.hasNext());
+		while(iter.hasNext()) {
+			System.out.println(iter);	
+			iter.next();
+		}
+		System.out.println(iter);	
 		
 	}
 }
